@@ -10,13 +10,14 @@ public class Test11 {
 
         System.out.print("Enter an alphabet (A to F): ");
         String input = scanner.nextLine();
+       String input1 = input.toUpperCase();
 
-        if (input.length() == 1) {
-            char alphabet = input.charAt(0);
+        if (input1.length() == 1) {
+            char alphabet = input1.charAt(0);
 
             String cityName;
 
-            if (alphabet == 'A') {
+            if (alphabet == 'A') { //add ignor case
                 cityName = "Ahmedabad";
             } else if (alphabet == 'B') {
                 cityName = "Baroda";

@@ -1,8 +1,6 @@
 package Week8;
-/* 15. Write a program that tells us input value is number or an alphabet orsymbol. */
-
+/* 15. Write a program that tells us input value is number or an alphabet or symbol. */
 import java.util.Scanner;
-
 public class Test15 {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);//Used Scanner class
